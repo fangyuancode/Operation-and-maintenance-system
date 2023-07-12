@@ -1,0 +1,13 @@
+/* 定义滚动条样式 */
+
+/*定义滚动条宽高及背景，宽高分别对应横竖滚动条的尺寸*/
+::-webkit-scrollbar {
+    width: 8px; /*对垂直流动条有效*/
+    height: 8px; /*对水平流动条有效*/
+}
+/*定义滑块颜色、内阴影及圆角*/
+::-webkit-scrollbar-thumb{
+    border-radius: 3px;
+    background-color: #dcdfe6;
+    opacity: 0;
+}

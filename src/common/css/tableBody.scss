@@ -1,0 +1,72 @@
+/* element表格样式 */
+.el-table__body-wrapper .el-table__body{
+    height: 100%;
+    overflow-y: scroll;
+}
+
+.el-table__body-wrapper {
+    height: 100%;
+}
+
+
+.el-table--scrollable-y .el-table__body-wrapper {
+    overflow-y: scroll;
+}
+
+.el-table::before {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 0;
+}
+
+.el-table--border::after,
+.el-table--group::after,
+.el-table::before {
+    content: '';
+    position: absolute;
+    background-color: #ffffff;
+    z-index: 1;
+}
+
+.el-loading-mask {
+    background-color: rgba(255, 255, 255, .2);
+}
+
+/*------------------------------------------------------ umyui表格样式 ------------------------------------------------------------------------*/
+/* 去掉边框的线条 */
+.elx-table .elx-table--border-line {
+    border: none !important;
+}
+
+/* 表头白色背景 */
+.elx-table.border--default .elx-table--header-wrapper {
+    background-color: white !important;
+}
+
+.elx-header--row {
+    background-color: #ffffff;
+}
+
+.elx-grid {
+    height: 100%;
+}
+
+.elx-table {
+    height: 100%;
+}
+
+.elx-table--main-wrapper {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.elx-table .elx-table--body-wrapper {
+    height: 100%;
+}
+
+/* 解决在边栏固定时左右不一致的问题 */
+.elx-table--fixed-right-wrapper .fixed-right--wrapper .elx-table--body {
+    margin-bottom: 45px !important;
+}

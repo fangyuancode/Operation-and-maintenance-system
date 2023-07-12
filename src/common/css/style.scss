@@ -1,0 +1,154 @@
+/* 全局样式 */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    overflow: hidden !important;
+}
+
+#app {
+    color: #2c3e50;
+    overflow: hidden;
+    height: 100%;
+}
+
+i {
+    font-style: normal;
+}
+
+/* 布局样式 */
+.lay-container {
+    box-sizing: border-box;
+    padding: 0 10px;
+    background-color: #ffffff;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.lay-container-pan {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.lay-container-condition {
+    padding: 20px 10px 1px 10px;
+    background-color: #ffffff;
+    border-bottom: 1px solid #dcdfe6;
+    margin-bottom: 10px;
+}
+
+.lay-container-content {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.lay-container-table {
+    height: calc(100% - 64px);
+
+}
+
+.lay-con-pagin {
+    position: absolute;
+    bottom: 15px;
+    padding-top: 8px;
+    margin-left: 10px;
+}
+
+.lay-con-form {
+    min-height: 50px;
+}
+
+.lay-con-layer {
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+}
+
+.lay-con-layer input {
+    width: 200px;
+}
+
+/* 表单样式 */
+.form-header {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #dcdfe6;
+    margin-bottom: 10px;
+}
+
+.form-center {
+    text-align: center;
+}
+
+.option-form {
+    color: #b3c0d1
+}
+
+.input-edit {
+    padding: 0 5px;
+    height: 26px;
+    max-width: 150px;
+    border: 1px solid #409eff;
+    border-radius: 5px;
+    outline-style: none;
+    background-color: #ffffff;
+}
+
+.span-edit {
+    /* 表单遮罩样式 */
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 99;
+}
+
+/* 提示行 */
+.cus-tip {
+    padding: 8px 16px;
+    background-color: #ecf8ff;
+    border-radius: 4px;
+    border-left: 5px solid #50bfff;
+    margin: 20px 0;
+}
+
+/* 树分组 */
+.el-select-group__title {
+    font-size: 15px !important;
+    color: #393D49 !important;
+    font-weight: bold;
+}
+
+
+/* 前台的样式  */
+.con-body {
+    height: 100%;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+}
+
+.con-body-search {
+    padding: 15px;
+}
+
+.con-body-pan {
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.con-body-table {
+    height: calc(100% - 38px);
+    overflow: hidden;
+}
